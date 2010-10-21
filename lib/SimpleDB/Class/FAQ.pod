@@ -4,6 +4,9 @@ The following are some of the questions people have asked about how to use the L
 
 =head2 Sharding
 
+Database sharding is a method of horizontal partitioning in a database or search engine.
+http://en.wikipedia.org/wiki/Shard_(database_architecture)
+
 =head3 How can I store multiple objects in the same domain?
 
 Use L<SimpleDB::Class::Item/"recast_using">. It works like this. First you have a base class like so:

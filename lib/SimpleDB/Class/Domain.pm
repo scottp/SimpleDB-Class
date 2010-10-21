@@ -176,6 +176,7 @@ sub find {
         $item = $self->instantiate_item($attributes, $id);
     }
     else {
+	# XXX add $@ here some how
         SimpleDB::Class::Exception->throw(error=>"An undefined error occured while fetching the item.");
     }
 

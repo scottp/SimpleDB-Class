@@ -1,0 +1,9 @@
+TEMPORARY FILE - Notes for Scott only
+
+* Format of list of servers throws exception in ->find
+	. Check parameters is a hashref
+
+* Cache issues
+	. You must have one, can't we just say none?
+
+
